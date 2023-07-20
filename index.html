@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="center">
+        <div class="networkHeader">
+            <h2>Network</h2>
+        </div>
+        <div class="yourFeed">
+            <h2>Your Feed</h2>
+        </div>
+        <div class="mainContent flex">
+            <div class="yourInfo flex">
+                <img src="assets\user-circle.png" alt="User image">
+                <a href="feltCute-MDL">Add an Avatar</a>
+                <h3>James Doe</h3>
+            </div>
+            <div class="posts flex">
+                <div class="individualPost">
+                    <div class="postHeader flex">
+                        <h3 class="otherUserName">Neil M</h3>
+                        <h4><span id="output">9</span> like(s)</h4>
+                        <button onclick="countClicks()">Like</button>
+                    </div>
+                    <div class="postText">
+                        <h4>I just set up this new discord bot, let me </h4>
+                        <h4>know what you all think. <a href="dcBotLink">link</a></h4>
+                    </div>
+                </div>
+                <div class="individualPost">
+                    <div class="postHeader flex">
+                        <h3 class="otherUserName">Nichole K</h3>
+                        <h4><span id="output2">12</span> like(s)</h4>
+                        <button onclick="countClicks2()">Like</button>
+                    </div>
+                    <div class="postText">
+                        <h4>Just finished my <a href="kindaMid">next comic</a>, check it out.</h4>
+                    </div>
+                </div>
+                <div class="individualPost">
+                    <div class="postHeader flex">
+                        <h3 class="otherUserName">Jim R</h3>
+                        <h4><span id="output3">9</span> like(s)</h4>
+                        <button onclick="countClicks3()">Like</button>
+                    </div>
+                    <div class="postText">
+                        <h4>I can't stop listening to the <a href="midnights">new album</a>.</h4> 
+                            <h4>Who else is liking it?</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="scripts.js"></script>
+</body>
+</html>
